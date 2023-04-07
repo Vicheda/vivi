@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>vivi</title>
+  <!--   css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <!--   js -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <!--   side nav bar -->
+  <div class="sidenav">
+    <h3>Vicheda N.</h3>
+    <div class="menu">
+      <ul>
+        <li><a href="#">/about-me</a></li>
+        <li><a href="#">/leadership-experiences</a></li>
+        <li><a href="#">/software-creations</a></li>
+      </ul>
+    </div>
+    <!--  social -->
+    <div class="social">
+      <li><a href="https://www.facebook.com/ahna.nolove/" class="fa fa-facebook" target="_blank"
+          rel="noreferrer noopener"></a></li>
+      <li><a href="https://www.linkedin.com/in/vicheda-narith-b9b60a202/" class="fa fa-linkedin" target="_blank"
+          rel="noreferrer noopener"></a></li>
+      <li><a href="mailto: vicheda.narith@gmail.com" class="fa fa-envelope"></a></li>
+    </div>
+  </div>
+  
+  <!-- home -->
+  <div class="home animate pop">
+<!--     typing animation -->
+    
+<!--     <div class="container">
+      <div class="text_hide"></div>
+        <h1 class="typing">Vi<span>vi</span></h1></div>
+
+      <div class="text_cursor"></div>
+    <a href="vicheda.narith@gmail.com">Say hi!</a>
+    </div> -->
+    
+    <h1 id="typing">Vi<span>vi</span></h1>
+    <a href="vicheda.narith@gmail.com">Say hi!</a>
+  </div>
+  <!-- about me -->
+  <div class="aboutme animate pop delay-1">
+    <div class="aboutcontent">
+      <h3>/about-me</h3>
+      <p>I want to be a software engineer and an artist. I have a great interest in full-stack development, artificial
+        intelligence, human-computer interactions, and everything in between.</p>
+      <br>
+      <p>Some technologies I have been working
+        with:</p><br>
+      <p>
+      <ul>
+        <li>HTML&CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+      </ul>
+      </p><br>
+      <p>Outside of tech, I run a project called RODOV with its main goal to provide menstrual education to all young
+        females
+        and all public.</p>
+    </div>
+    <img class="profile" src="img/profile.jpg" alt="profile-pic"></img>
+  </div>
+  <!-- leadership experiences -->
+  <div class="experiences animate pop delay-2">
+    <h3>/leadership-experiences</h3>
+    <div class="expcontent">
+      <div class="exppoints">
+        <ul>
+          <li class="ex1">Rodov</li><br>
+          <li class="ex2">Wander in Tech</li><br>
+          <li class="ex3">JCI Cambodia</li>
+        </ul><br>
+      </div>
+      <div class="expdetails">
+        <p class="exdetail">In Cambodia, menstrual talks are not to be spoken openly, “it’s embarrassing” they say.
+          Girls were never properly taught the subject and only learned how to deal with periods from our mothers,
+          sisters, or close female relatives. This problem can cause severe health problems, physically and emotionally.
+          Hence, it has to be addressed.<br><br>We provide menstrual education by hosting workshops and book
+          distributions
+          at schools.</p>
+      </div>
+    </div>
+  </div>
+
+  <!--   software projects -->
+  <div class="softwares animate pop delay-3">
+    <h3>/software-projects</h3>
+    <div class="mySlides fade">
+      <img src="img/1.png">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="img/2.png">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="img/3.png">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+  <footer>
+    <p class="end">Built and designed by Vicheda N.</p>
+  </footer>
+</body>
+
+</html>
